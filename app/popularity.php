@@ -4,8 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Client extends Model
+class popularity extends Model
 {
     protected $fillable = ['ip','count'];
-    public $timestamps = false;
 }

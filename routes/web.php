@@ -29,3 +29,4 @@ Route::post('store', 'HomeController@store')->name('store');
 Route::get('image{id}', 'HomeController@show');
 Route::get('predelete','HomeController@predelete');
 Route::post('delete','HomeController@delete')->name('delete');
+Route::post('image{image}/comments','CommentController@store');
