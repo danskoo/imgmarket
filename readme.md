@@ -10,6 +10,10 @@
 
 для администрирования необходимо создать аккаунт с логином: admin
 
+Перед началом работы:
+1) необходимо создать базу данных: imgmarket
+2) установить composer: composer install (данную команду необходимо выполнять в клонированном директории)
+3) выполнить миграции: php artisan migrate
 
 educational project on laravel, which is a picture store.
 
@@ -22,3 +26,9 @@ homepage: laravel.study/home (authentication page)
 To go to the admin panel, you need to click on your login and select this in the drop-down menu.
 
 at the beginning for the administration you need to create an account with login: admin
+
+
+Before you start:
+1) you need to create a database: imgmarket
+2) install composer: composer install (this command must be executed in the cloned directory)
+3) do migrations: php artisan migrate
